@@ -1,16 +1,124 @@
 C/C++
 ____________________________________________________________________
 ___________________________________________________________________
-Это программа для отслеживания счета в спортивном матче между двумя командами. Давайте разберем ее подробно.
 
-Общая структура программы
-Программа представляет собой консольное приложение, которое:
+C++ Konsolenanwendung für die Spielstandverfolgung
 
-Отображает текущий счет
+Diese C++-Konsolenanwendung dient als digitale Anzeigetafel zur Verfolgung der Punkte zwischen zwei konkurrierenden Mannschaften. Sie implementiert ein schleifenbasiertes Menüsystem, das Benutzern folgende Funktionen bietet:
 
-Предоставляет меню для добавления очков командам
+Aktuellen Spielstand in Echtzeit anzeigen
 
-Позволяет завершить матч
+Punkte für beide Mannschaften verwalten (mit Optionen für 1, 2 oder 3 Punkte)
+
+Das Spiel beenden und Endergebnisse anzeigen
+
+Technische Merkmale:
+
+Echtzeit-Scoreboard mit dynamischer Anzeige
+
+Intuitive Menüführung mit zweistufiger Auswahl:
+
+Hauptmenü zur Mannschaftsauswahl
+
+Untermenü zur Punktevergabe
+
+Klare visuelle Darstellung des Spielstands
+
+Erweiterte Funktionen:
+
+Punktestandsmanagement:
+
+Verwendung von Integer-Variablen für die Punktzählung
+
+Flexible Punktevergabe-Systematik (1-3 Punkte pro Aktion)
+
+Programmsteuerung:
+
+Do-While-Schleife für kontinuierlichen Betrieb
+
+Option zum ordnungsgemäßen Spielabbruch
+
+Anwendungsbeispiel:
+
+Programmstart mit Anzeige des Initialstands (0:0)
+
+Benutzer wählt Mannschaft 1 → 3 Punkte
+
+Aktualisierter Spielstand (3:0)
+
+Benutzer wählt Mannschaft 2 → 2 Punkte
+
+Aktualisierter Spielstand (3:2)
+
+Spielende mit Anzeige des Endergebnisses
+
+Diese Lösung bietet eine robuste Basis für die Spielstandverfolgung, die durch sportspezifische Anpassungen 
+(z.B. für Basketball oder Volleyball) erweitert werden kann, einschließlich der Möglichkeit, sportspezifische Punkteregeln und Zählweisen zu implementieren.
+__________________________________________________________________
+
+
+This C++ console application serves as a digital scoreboard for tracking points between two competing teams. 
+It implements a loop-based menu system that allows users to:
+View the current score in real-time
+Add points to either team (with 1, 2, or 3 point options)
+Terminate the match and display final results
+________________________________________________________________
+
+Консольное приложение C++ для отслеживания результатов
+
+Это консольное приложение на C ++ служит цифровым табло для отслеживания очков между двумя соревнующимися командами. В нем реализована циклическая система меню, которая предоставляет пользователям следующие функции:
+
+Просмотр текущего игрового процесса в режиме реального времени
+
+Управление очками для обеих команд (с возможностью набрать 1, 2 или 3 очка)
+
+Выйти из игры и просмотреть окончательные результаты
+
+Технические характеристики:
+
+Табло в реальном времени с динамическим отображением
+
+Интуитивно понятное меню с двухэтапным выбором:
+
+Главное меню для выбора команды
+
+Подменю для начисления очков
+
+Четкое визуальное представление игрового процесса
+
+Расширенные возможности:
+
+Управление состоянием очков:
+
+Использование целочисленных переменных для подсчета очков
+
+Гибкая система начисления баллов (1-3 балла за действие)
+
+Управление программами:
+
+Цикл выполнения во время непрерывной работы
+
+Возможность правильного прекращения игры
+
+Пример использования:
+
+Запуск программы с указанием начального уровня (0:0)
+
+Пользователь выбирает команду 1 → 3 очка
+
+Обновленный счет матча (3:0)
+
+Пользователь выбирает команду 2 → 2 очка
+
+Обновленный счет матча (3:2)
+
+Окончание игры с отображением конечного результата
+
+Это решение обеспечивает надежную основу для отслеживания счета, которая может быть расширена за счет специальных настроек 
+(например, для баскетбола или волейбола), включая возможность реализации правил подсчета очков и способов подсчета для конкретных видов спорта.
+
+
+
 ____________________________________________________________________
 ___________________________________________________________________
 #include <stdio.h>  // Стандартные функции ввода/вывода
