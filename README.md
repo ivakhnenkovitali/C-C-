@@ -1,10 +1,10 @@
-C/C++
+C++ Konsolenanwendung für die Spielstandverfolgung
 ____________________________________________________________________
 ![ее](https://github.com/user-attachments/assets/d00c52fb-64c2-4d70-9e8e-cb337d815d89)
 
 ___________________________________________________________________
 
-C++ Konsolenanwendung für die Spielstandverfolgung
+
 
 Diese C++-Konsolenanwendung dient als digitale Anzeigetafel zur Verfolgung der Punkte zwischen zwei konkurrierenden Mannschaften. Sie implementiert ein schleifenbasiertes Menüsystem, das Benutzern folgende Funktionen bietet:
 
