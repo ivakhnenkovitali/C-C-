@@ -56,6 +56,8 @@ Spielende mit Anzeige des Endergebnisses
 Diese Lösung bietet eine robuste Basis für die Spielstandverfolgung, die durch sportspezifische Anpassungen 
 (z.B. für Basketball oder Volleyball) erweitert werden kann, einschließlich der Möglichkeit, sportspezifische Punkteregeln und Zählweisen zu implementieren.
 __________________________________________________________________
+____________________________________________________________
+________________________________________________________________
 
 
 This C++ console application serves as a digital scoreboard for tracking points between two competing teams. 
@@ -127,6 +129,7 @@ ___________________________________________________________________
 #include <math.h>   // Математические функции (не используется в коде)
 #include <windows.h> // Функции Windows API (не используется в коде)
 _______________________________________________________________________
+_________________________________________________________________________
 
 #include <stdio.h>     // Стандартные функции ввода/вывода
 #include <conio.h>      // Для getch() (можно заменить на более современные альтернативы)
