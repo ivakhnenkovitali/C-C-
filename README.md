@@ -1,4 +1,5 @@
 C++ Konsolenanwendung für die Spielstandverfolgung
+
 ____________________________________________________________________
 ![ее](https://github.com/user-attachments/assets/d00c52fb-64c2-4d70-9e8e-cb337d815d89)
 _______________________________________________________________________
