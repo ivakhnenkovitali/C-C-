@@ -8,6 +8,7 @@ ___________________________________________________________________
 
 Diese C++-Konsolenanwendung dient als digitale Anzeigetafel zur Verfolgung der Punkte zwischen zwei konkurrierenden Mannschaften. Sie implementiert ein schleifenbasiertes Menüsystem, das Benutzern folgende Funktionen bietet:
 
+
 Aktuellen Spielstand in Echtzeit anzeigen
 
 Punkte für beide Mannschaften verwalten (mit Optionen für 1, 2 oder 3 Punkte)
